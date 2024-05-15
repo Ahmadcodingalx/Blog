@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Rob-Regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Rob-Bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: Rob-Thin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+html, body {
+    font-family: Rob-Regular;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
