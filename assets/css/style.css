@@ -18,3 +18,7 @@ html, body {
     padding: 0;
     margin: 0;
 }
+
+.menu-bar .menu-active {
+    font-family: Rob-bold;
+}
