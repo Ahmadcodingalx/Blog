@@ -7,6 +7,6 @@
     <link rel="stylesheet" href="../Blog/assets/css/style.css">
 </head>
 <body>
-    
+    <h1>Hello world</h1>
 </body>
 </html>
