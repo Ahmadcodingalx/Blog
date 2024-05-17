@@ -1,3 +1,10 @@
+
+<?php
+    if (isset($_COOKIE['username'])) {
+        header('Location: /blog/index.php?test=true');
+    }
+?>
+
 <!DOCTYPE  >
 <html lang="en">
 <head>
