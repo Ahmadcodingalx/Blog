@@ -10,5 +10,13 @@
     <?php
         require_once './includes/menu.php'
     ?>
+
+    <?php
+        
+        if (isset($_GET['test']) && $_GET['test'] == 'true') {
+            echo "<h2>Les identifications saisis sont incorrects. Veuillez les vérifier et réessayer !</h2>";
+        }
+
+    ?>
 </body>
 </html>

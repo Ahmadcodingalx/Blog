@@ -18,6 +18,19 @@
                     </li>
                 </ul>
             </td>
+
+            <?php
+                if (isset($_COOKIE['username'])) {
+            ?>
+
+            <td>
+                <?= $_COOKIE['username']; ?> 
+                <a href="/blog/processing/logout.php">Se connecter</a>
+            </td>
+
+            <?php
+                }
+            ?>
         </tr>
     </table>
 </header>
