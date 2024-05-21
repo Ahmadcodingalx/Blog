@@ -2,8 +2,9 @@
 
     require ("../config/database.php");
 
-    $username=$_POST['username'];
-    $password=$_POST['password'];
+    $username= htmlspecialchars($_POST['username']); 
+    $password= htmlspecialchars($_POST['password']);
+    // "htmlspecialchars" une fonction qui  Permet de contrer l'injection sql en transformant Tout ce qui rentre en texte brute...
     $hashed_password = md5($password);
 
     $req = $myPDO->query("SELECT * FROM users WHERE username = '$username' AND password = '$hashed_password';");
