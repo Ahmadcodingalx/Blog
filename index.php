@@ -18,5 +18,7 @@
         // }
 
     ?>
+
+    <h1>Derniers articles...</h1>
 </body>
 </html>

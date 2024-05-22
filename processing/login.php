@@ -16,6 +16,7 @@
         setcookie('id', $result['id'], time()+3600000, '/');
         // $_COOKIE['leaderGroup'] = $user->ID;   
         header('Location: /blog/index.php');
+        
     } else {
 
         header('Location: /blog/pages/connexion.php?page=connexion&user=unknown');
